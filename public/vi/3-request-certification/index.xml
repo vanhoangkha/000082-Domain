@@ -4,6 +4,10 @@
     <title>Yêu cầu chứng chỉ SSL on AWS System Manager</title>
     <link>/vi/3-request-certification/</link>
     <description>Recent content in Yêu cầu chứng chỉ SSL on AWS System Manager</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/vi/3-request-certification/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="/vi/3-request-certification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
