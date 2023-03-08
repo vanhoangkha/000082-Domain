@@ -4,10 +4,6 @@
     <title>Request SSL certificate on AWS System Manager</title>
     <link>/3-request-certification/</link>
     <description>Recent content in Request SSL certificate on AWS System Manager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="/3-request-certification/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/3-request-certification/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

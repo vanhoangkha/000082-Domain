@@ -44,7 +44,7 @@ Save arguments to configuration file [Y/n]: y
 
 7. Thực hiện câu lệnh dưới đây để tải code **fcj-serverless-frontend** về máy của bạn
 ```
-git clone https://github.com/PhamTHHanh/fcj-serverless-frontend.git
+git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop.git
 ```
 - Mở tệp **config.js**, thay giá trị của **APP_API_URL** bằng **InvokeURL**
 

@@ -44,7 +44,7 @@ sam deploy --guided
 
 7. Run the below command to download the source code of **fcj-serverless-frontend** to your device
 ```
-git clone https://github.com/PhamTHHanh/fcj-serverless-frontend.git
+git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop.git
 ```
 8. Run the below commands to build project
 ```
