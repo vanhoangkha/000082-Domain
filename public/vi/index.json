@@ -29,7 +29,7 @@
 },
 {
 	"uri": "/vi/4-create-cloud-front/",
-	"title": "Tạo ClodFront distribution",
+	"title": "Tạo CloudFront distribution",
 	"tags": [],
 	"description": "",
 	"content": " Mở bảng điều khiển của Amazon CloudFront  Ấn Create distribution  Chọn origin domain là S3 bucket fcj-book-store  Chọn Legacy access identities để chỉ cho phép truy cập vào S3 bucket từ CloudFront   Ấn Create new OAI   Ấn Create   Chọn OAI bạn vừa tạo Chọn Yes, update the bucket policy  Kéo xuống dưới, tại phần Default cache behavior chọn Redirect HTTP to HTTPS cho Viewer protocol policy  Kéo xuống dưới, tại phần Settings, ấn Add item   Nhập CNAME: www.fcjbookstore.click và fcjbookstore.click Chọn SSL certificate vừa tạo ở phần trước  Kéo xuống cuối trang, nhập index.html cho mục Default root object   Ấn Create distribution  Quay trở lại với bảng điều khiển của Route 53   Ấn Create record  Nhập www cho Record name   Bật Alias Chọn Alias to CloudFront distribution  Chọn CloudFront distribution vừa tạo   Ấn Create records   Ấn Create record  Bật Alias   Chọn Alias to CloudFront distribution Chọn CloudFront distribution vừa tạo Ấn Create records  Nhập các đường dẫn sau vào một tab mới trong trình duyệt web của bạn: http://DOMAIN, http://www.DOMAIN, thay toàn bộ DOMAIN bằng tên domain của bạn. Tất cả các đường dẫn đó đều chuyển hướng đến đường dẫn mới, thay http bằng https  "

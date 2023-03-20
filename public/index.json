@@ -29,7 +29,7 @@
 },
 {
 	"uri": "/4-create-cloud-front/",
-	"title": "Create ClodFront distribution",
+	"title": "Create CloudFront distribution",
 	"tags": [],
 	"description": "",
 	"content": " Open Amazon CloudFront console  Click Create distribution  Select the origin domain is fcj-book-store bucket  Select Legacy access identities to just allow access to the S3 bucket from CloudFront   Click Create new OAI   Click Create   Select OAI you just created Select Yes, update the bucket policy  Scroll down, in Default cache behavior section, select Redirect HTTP to HTTPS for Viewer protocol policy  Scroll down, in Settings section, click Add item   Enter CNAME: www.fcjbookstore.click and fcjbookstore.click Select the SSL certificate you created in previous step  Scroll down to bottom, enter index.html for Default root object pattern   Click Create distribution  Go back to the Route 53 console   Click Create record  Enter www for Record name   Turn on Alias Select Alias to CloudFront distribution  Select the newly created CloudFront distribution   Click Create records   Click Create record  Turn on Alias   Select Alias to CloudFront distribution Select the newly created CloudFront distribution Click Create records  Enter the following links in a new tab in your web browser: http://DOMAIN, http://www.DOMAIN, replace all DOMAIN with your domain name. All those links redirect to the new path, replace http with https  "

@@ -1,5 +1,5 @@
 ---
-title : "Tạo ClodFront distribution"
+title : "Tạo CloudFront distribution"
 date :  "`r Sys.Date()`" 
 weight : 4
 chapter : false
