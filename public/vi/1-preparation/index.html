@@ -12,21 +12,21 @@
     <title>Chuẩn bị :: Serverless - Setting up SSL for your serverless app</title>
 
     
-    <link href="/css/nucleus.css?1679992540" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1679992540" rel="stylesheet">
-    <link href="/css/hybrid.css?1679992540" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1679992540" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1679992540" rel="stylesheet">
-    <link href="/css/auto-complete.css?1679992540" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1679992540" rel="stylesheet">
-    <link href="/css/theme.css?1679992540" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1679992540" rel="stylesheet">
+    <link href="/css/nucleus.css?1679997808" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1679997808" rel="stylesheet">
+    <link href="/css/hybrid.css?1679997808" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1679997808" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1679997808" rel="stylesheet">
+    <link href="/css/auto-complete.css?1679997808" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1679997808" rel="stylesheet">
+    <link href="/css/theme.css?1679997808" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1679997808" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1679992540" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1679997808" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1679992540"></script>
+    <script src="/js/jquery-3.3.1.min.js?1679997808"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1679992540"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1679992540"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1679997808"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1679997808"></script>
 <script type="text/javascript">
     
         var baseurl = "\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1679992540"></script>
+<script type="text/javascript" src="/js/search.js?1679997808"></script>
 
     
   </div>
@@ -448,9 +448,9 @@ Save arguments to configuration file [Y/n]: y</li>
 </ul>
 <p><img src="/images/1-preparation/1-preparation-3.png?featherlight=false&amp;width=90pc" alt="CreateUserPool"></p>
 <ol start="7">
-<li>Thực hiện câu lệnh dưới đây để tải code <strong>fcj-serverless-frontend</strong> về máy của bạn</li>
+<li>Thực hiện câu lệnh dưới đây để tải code <strong>FCJ-Serverless-Workshop</strong> về máy của bạn</li>
 </ol>
-<pre tabindex="0"><code>git clone https://github.com/PhamTHHanh/fcj-serverless-frontend.git
+<pre tabindex="0"><code>git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop.git
 </code></pre><ul>
 <li>Mở tệp <strong>config.js</strong>, thay giá trị của <strong>APP_API_URL</strong> bằng <strong>InvokeURL</strong></li>
 </ul>
@@ -458,7 +458,7 @@ Save arguments to configuration file [Y/n]: y</li>
 <ol start="8">
 <li>Thực hiện các câu lệnh dưới đây để build project</li>
 </ol>
-<pre tabindex="0"><code>cd fcj-serverless-frontend
+<pre tabindex="0"><code>cd FCJ-Serverless-Workshop
 yarn build
 </code></pre><ol start="9">
 <li>Chúng ta đã build xong front-end. Tiếp theo thực hiện câu lệnh sau để tải thư mục <strong>build</strong> lên S3 bucket</li>
@@ -606,19 +606,19 @@ yarn build
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1679992540"></script>
-    <script src="/js/perfect-scrollbar.min.js?1679992540"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1679992540"></script>
-    <script src="/js/jquery.sticky.js?1679992540"></script>
-    <script src="/js/featherlight.min.js?1679992540"></script>
-    <script src="/js/highlight.pack.js?1679992540"></script>
+    <script src="/js/clipboard.min.js?1679997808"></script>
+    <script src="/js/perfect-scrollbar.min.js?1679997808"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1679997808"></script>
+    <script src="/js/jquery.sticky.js?1679997808"></script>
+    <script src="/js/featherlight.min.js?1679997808"></script>
+    <script src="/js/highlight.pack.js?1679997808"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1679992540"></script>
-    <script src="/js/learn.js?1679992540"></script>
-    <script src="/js/hugo-learn.js?1679992540"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1679997808"></script>
+    <script src="/js/learn.js?1679997808"></script>
+    <script src="/js/hugo-learn.js?1679997808"></script>
 
-    <link href="/mermaid/mermaid.css?1679992540" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1679992540"></script>
+    <link href="/mermaid/mermaid.css?1679997808" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1679997808"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
