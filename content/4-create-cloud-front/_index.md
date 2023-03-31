@@ -1,5 +1,5 @@
 ---
-title : "Create ClodFront distribution"
+title : "Create CloudFront distribution"
 date :  "`r Sys.Date()`" 
 weight : 4
 chapter : false

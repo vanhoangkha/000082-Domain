@@ -1,10 +1,10 @@
 ---
-title : "Serverless - Set Up An S3 Static SSL Website"
+title : "Serverless - Setting up SSL for your serverless app"
 date :  "`r Sys.Date()`" 
 weight : 1 
 chapter : false
 ---
-# Serverless - Set Up An S3 Static SSL Website
+# Serverless - Setting up SSL for your serverless app
 
 #### Overview
 

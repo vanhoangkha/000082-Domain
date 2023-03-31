@@ -42,7 +42,7 @@ Save arguments to configuration file [Y/n]: y
 
 ![CreateUserPool](/images/1-preparation/1-preparation-3.png?featherlight=false&width=90pc)
 
-7. Thực hiện câu lệnh dưới đây để tải code **fcj-serverless-frontend** về máy của bạn
+7. Thực hiện câu lệnh dưới đây để tải code **FCJ-Serverless-Workshop** về máy của bạn
 ```
 git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop.git
 ```
@@ -52,7 +52,7 @@ git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop.git
 
 8. Thực hiện các câu lệnh dưới đây để build project
 ```
-cd fcj-serverless-frontend
+cd FCJ-Serverless-Workshop
 yarn build
 ```
 9. Chúng ta đã build xong front-end. Tiếp theo thực hiện câu lệnh sau để tải thư mục **build** lên S3 bucket
