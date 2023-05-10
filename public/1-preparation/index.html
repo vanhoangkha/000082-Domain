@@ -12,21 +12,21 @@
     <title>Preparation :: SERVERLESS - SETTING UP SSL FOR YOUR SERVERLESS APP</title>
 
     
-    <link href="/css/nucleus.css?1683701076" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1683701076" rel="stylesheet">
-    <link href="/css/hybrid.css?1683701076" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1683701076" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1683701076" rel="stylesheet">
-    <link href="/css/auto-complete.css?1683701076" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1683701076" rel="stylesheet">
-    <link href="/css/theme.css?1683701076" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1683701076" rel="stylesheet">
+    <link href="/css/nucleus.css?1683734869" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1683734869" rel="stylesheet">
+    <link href="/css/hybrid.css?1683734869" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1683734869" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1683734869" rel="stylesheet">
+    <link href="/css/auto-complete.css?1683734869" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1683734869" rel="stylesheet">
+    <link href="/css/theme.css?1683734869" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1683734869" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1683701076" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1683734869" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1683701076"></script>
+    <script src="/js/jquery-3.3.1.min.js?1683734869"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1683701076"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1683701076"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1683734869"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1683734869"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1683701076"></script>
+<script type="text/javascript" src="/js/search.js?1683734869"></script>
 
     
   </div>
@@ -404,7 +404,7 @@
 					<a href="/1-preparation/_index.files/fcj-book-store-sam-ws5.zip" >
 						fcj-book-store-sam-ws5.zip
 					</a>
-					(8259 ko)
+					(8258 ko)
 				</li>
 			
 		
@@ -433,6 +433,10 @@ sam deploy --guided
 <li>BookDelete may not have authorization defined, Is this okay? [y/N]: y</li>
 <li>Save arguments to configuration file [Y/n]: y</li>
 </ul>
+
+<div class="notices note" ><p>You should install python3.9 because the lambda function uses python3.9</p>
+</div>
+
 <ol start="4">
 <li>Open <a href="https://ap-southeast-1.console.aws.amazon.com/apigateway/main/apis?region=ap-southeast-1">AWS APIs Gateway console</a></li>
 </ol>
@@ -461,6 +465,8 @@ sam deploy --guided
 <li>Run the below commands to build project</li>
 </ol>
 <pre tabindex="0"><code>cd FCJ-Serverless-Workshop
+npm install
+npm install --global yarn
 yarn build
 </code></pre><ol start="9">
 <li>We have finished building the front-end. Next, run the below command to upload <strong>build</strong> folder to S3 bucket</li>
@@ -608,19 +614,19 @@ yarn build
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1683701076"></script>
-    <script src="/js/perfect-scrollbar.min.js?1683701076"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1683701076"></script>
-    <script src="/js/jquery.sticky.js?1683701076"></script>
-    <script src="/js/featherlight.min.js?1683701076"></script>
-    <script src="/js/highlight.pack.js?1683701076"></script>
+    <script src="/js/clipboard.min.js?1683734869"></script>
+    <script src="/js/perfect-scrollbar.min.js?1683734869"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1683734869"></script>
+    <script src="/js/jquery.sticky.js?1683734869"></script>
+    <script src="/js/featherlight.min.js?1683734869"></script>
+    <script src="/js/highlight.pack.js?1683734869"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1683701076"></script>
-    <script src="/js/learn.js?1683701076"></script>
-    <script src="/js/hugo-learn.js?1683701076"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1683734869"></script>
+    <script src="/js/learn.js?1683734869"></script>
+    <script src="/js/hugo-learn.js?1683734869"></script>
 
-    <link href="/mermaid/mermaid.css?1683701076" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1683701076"></script>
+    <link href="/mermaid/mermaid.css?1683734869" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1683734869"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

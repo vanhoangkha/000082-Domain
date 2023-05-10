@@ -28,6 +28,10 @@ sam deploy --guided
 - BookDelete may not have authorization defined, Is this okay? [y/N]: y
 - Save arguments to configuration file [Y/n]: y
 
+{{% notice note %}}
+You should install python3.9 because the lambda function uses python3.9
+{{% /notice %}}
+
 4. Open [AWS APIs Gateway console](https://ap-southeast-1.console.aws.amazon.com/apigateway/main/apis?region=ap-southeast-1)
 
 ![CreateUserPool](/images/1-preparation/1-preparation-1.png?featherlight=false&width=90pc)
@@ -53,6 +57,8 @@ git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop.git
 8. Run the below commands to build project
 ```
 cd FCJ-Serverless-Workshop
+npm install
+npm install --global yarn
 yarn build
 ```
 9. We have finished building the front-end. Next, run the below command to upload **build** folder to S3 bucket
